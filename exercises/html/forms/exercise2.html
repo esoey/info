@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2</title>
+    <style>
+        input{
+            margin-bottom: 2px;
+        }
+        fieldset{
+            display: inline-block;
+            position: relative;
+            width: 300px;
+            ;
+        }
+        #personalia>input{
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset><legend>Personalia</legend>
+        <form name="Personalia">
+            <label for="first-name">First name: </label><input type="text" name="first-name"><br>
+            <label for="last-name">Last name: </label><input type="text" name="last-name"><br>
+            <label for="e-mail">E-mail: </label><input type="email" name="e-mail"><br>
+            Gender: Male <input type="radio" name="Gender" value="Male">
+            Female <input type="radio" name="Gender" value="Female"> <br>
+        </form>
+    </fieldset> <br>
+    <fieldset><legend>Magasiner</legend>
+        <form>
+            <input type="checkbox" name="magasin" value="Stavanger aftenblad"> Stavanger aftenblad <br>
+            <input type="checkbox" name="magasin" value="Rogaland Avis"> Rogaland Avis
+        </form>
+    </fieldset> <br>
+    <fieldset>
+        <legend>Abonnementer</legend>
+        <form>
+            <select name="subscription">
+                <option value="6">6</option>
+                <option value="12">12</option>
+                <option value="18">18</option>
+                <option value="24">24</option>
+            </select>
+        </form>
+    </fieldset> <br>
+    <input type="submit" value="_Subscribe_" style="margin-top: 10px; font-size: 100px;">
+</body>
+</html>

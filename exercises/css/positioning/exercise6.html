@@ -1,80 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Exercise #6: Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
     <style>
-        * {
-            margin: 0px;
-        }
-
-        header {
-            background-color: #ebde52;
-            height: 80px;
-        }
-
-        nav {
-            width: 20%;
-            padding-top: 20px;
-        }
-
-        main {
-            position: absolute;
-            top: 80px; /* same as the height of header */
-            left: 20%; /* same as the width of nav */
+        body{
             width: 80%;
-            padding-top: 20px;
+            min-width: 600px;
+            max-width: 960px;
+            background-color: #ffffcc;
+            align-items: center;
+            display: flex;
         }
+        nav{
+            width: 200px;
+            background-color: #e3e3e3;
+        }
+        main{
+            background-color: white;
+        }
+        .wrapper{
+            display: flexbox;
 
-        p {
-            margin: 1em;
+        }
+        header{
+
         }
     </style>
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </header>
+        <nav>
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </nav>
+        <main>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique ex vitae rhoncus malesuada. Nunc rutrum tempus vestibulum. Pellentesque nibh lorem, dapibus imperdiet vestibulum a, rhoncus id eros. Mauris hendrerit tortor in mi pretium, at condimentum diam viverra. Mauris ac orci metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse quam sem, luctus fringilla porta ut, sollicitudin quis velit. Duis vel leo eleifend enim convallis pellentesque ac sed lectus. Curabitur bibendum diam ante, quis pellentesque neque elementum in. Sed laoreet interdum aliquam.</p>
 
-<header>
-    <h1>2-column layout</h1>
-</header>
+            <p>Sed commodo maximus tortor ac pretium. Aenean justo mauris, condimentum at interdum at, vehicula in neque. Donec tincidunt aliquam tortor eu luctus. Ut mattis et nunc at finibus. Nulla vel felis vitae enim mattis varius. Maecenas elit erat, tincidunt nec euismod non, vehicula id arcu. Suspendisse at consequat mi. Ut mattis augue erat, vel facilisis erat volutpat vel. Curabitur at egestas dui. Praesent dapibus placerat dui, in sodales lacus rutrum nec. Proin vitae elementum mauris.</p>
 
-<nav>
-    <ul>
-        <li>Item #1</li>
-        <li>Item #2</li>
-        <li>Item #3</li>
-    </ul>
-</nav>
-
-<main>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus, ipsum at tristique mollis, nunc nisi congue
-        tortor, sit amet fermentum metus dui eu enim. Pellentesque in finibus augue. Integer lacus lacus, elementum sed
-        pretium a, accumsan vel elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-        himenaeos. Vestibulum facilisis volutpat justo, sed congue lorem malesuada eu. Nunc iaculis tellus mi, in accumsan
-        diam ullamcorper at. Ut ac magna in lorem egestas consectetur. Curabitur et pretium turpis, nec posuere nunc.
-        Quisque sem arcu, aliquet ac feugiat a, dapibus sed mauris. Nullam non augue non ligula dapibus venenatis. Aenean
-        vestibulum lacus eget magna pulvinar, elementum sagittis nisl rutrum.</p>
-
-    <p>Aenean vestibulum libero pretium faucibus tempus. In a mattis nunc. Duis ultricies, velit quis viverra ultricies,
-        augue lorem laoreet risus, sit amet gravida purus justo fringilla ante. Donec mi lorem, accumsan vel neque in,
-        elementum pellentesque nulla. Nulla cursus diam sed dolor dignissim lacinia. Aenean vehicula massa purus. Phasellus
-        efficitur leo id ex scelerisque euismod. Morbi dictum fermentum dictum.</p>
-
-    <p>Quisque aliquet, orci at pharetra faucibus, nunc massa vulputate sem, varius dignissim nunc orci ut neque. Integer
-        elementum mi a odio molestie, eu placerat leo dapibus. Etiam eu tincidunt nunc. Donec laoreet blandit metus at
-        auctor. Sed dignissim blandit lorem. Morbi rhoncus odio turpis, at vestibulum neque aliquam eu. Proin malesuada
-        ultricies imperdiet. Vivamus semper pretium orci, eu viverra sapien euismod quis. Fusce molestie rhoncus nulla, in
-        euismod massa dapibus vitae.</p>
-
-    <p>Sed mattis facilisis porta. Suspendisse potenti. Maecenas sit amet elementum lorem, id viverra sem. Donec placerat
-        egestas pellentesque. Nunc nisi sem, lobortis quis interdum et, interdum ac libero. Vivamus non rutrum est. Cras
-        commodo justo lorem, non vehicula neque pellentesque et. Donec ullamcorper diam eget mi facilisis tempus. Quisque
-        dapibus condimentum mi.</p>
-
-    <p>Phasellus turpis erat, rhoncus ac justo sit amet, ultrices vestibulum turpis. Pellentesque est enim, ultricies vel
-        tristique sit amet, sagittis vitae enim. Nam condimentum orci a ipsum elementum malesuada. Proin sed orci eu ipsum
-        egestas bibendum et lobortis justo. In in nulla mattis magna mollis pulvinar quis eget lacus. Suspendisse eu justo
-        ipsum. Fusce ornare ligula eu orci porttitor, imperdiet mattis nisl tincidunt.</p>
-</main>
-
+            <p>Fusce eu eros ac mauris facilisis efficitur. Pellentesque luctus sed est quis sodales. Praesent luctus diam augue, sed tincidunt est condimentum non. Suspendisse at cursus nisl. Maecenas eu molestie sapien, vel accumsan tortor. Nunc malesuada, dolor facilisis feugiat consectetur, lacus tellus accumsan sem, sed interdum felis nisi in nunc. Donec eget ex tincidunt, eleifend ante eget, suscipit massa. Maecenas posuere id tellus id rhoncus. Nam tincidunt risus in magna iaculis, vel dictum lacus rhoncus. Integer a aliquam urna. Donec molestie ac sem ac accumsan. Proin gravida sagittis ante, vel suscipit lectus volutpat ut.</p>
+        </main>
+    </div>
 </body>
+<footer>
+    CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc
+</footer>
 </html>
